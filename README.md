@@ -1,5 +1,4 @@
-# nonstop-music
-non stop music bot
+
 # Regen & Mod by @shamilhabeebnelli
 # Pyrogram - Telegram MTProto API Client Library for Python
 
