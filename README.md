@@ -2,7 +2,7 @@
 non stop music bot
 # Regen & Mod by @shamilhabeebnelli
 # Pyrogram - Telegram MTProto API Client Library for Python
-# Copyright (C) 2017-2020 Dan <https://github.com/delivrance>
+
 #
 # This file is part of Pyrogram.
 #
@@ -30,10 +30,10 @@ buttons = [
         InlineKeyboardButton("❔ How To Use Me ❔", callback_data="help"),
         InlineKeyboardButton("❔ 𝗛𝗘𝗟𝗣 ❔", url='https://telegra.ph/लल-बदशह-08-08-4'),
                 ],[
-                InlineKeyboardButton('📢 Updates', url='https://t.me/MOVIE_CHANNEL_1234'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/DOSTI_GROUP_1234')
+                InlineKeyboardButton('📢 Updates', url='https://t.me/sks_musicsupport'),
+                InlineKeyboardButton('💬 Support', url='https://t.me/sks_musicsupport')
                 ],[
-                InlineKeyboardButton('📜 𝗙𝗔𝗧𝗛𝗘𝗥 📜', url='https://t.me/abhinasroy'),       
+                InlineKeyboardButton('📜 𝗙𝗔𝗧𝗛𝗘𝗥 📜', url='https://t.me/shubhamsharmajee'),       
     ]
     ]
 @Client.on_inline_query()
@@ -45,7 +45,7 @@ async def search(client, query):
                     title="do you wanna help huh?",
                     thumb_url="https://telegra.ph/file/d1c2bec6235dfe9be523d.jpg",
                     photo_url="https://telegra.ph/file/d1c2bec6235dfe9be523d.jpg",
-                    caption=(f"{REPLY_MESSAGE}\n\n**Powered By** [ __@abhinasroy | @ahinasroy__ ]"),
+                    caption=(f"{REPLY_MESSAGE}\n\n**Powered By** [ __@shubhamsharmajee | @shubhamsharmajee__ ]"),
                     reply_markup=InlineKeyboardMarkup(buttons)
                     )
             )
